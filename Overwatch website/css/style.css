@@ -1,0 +1,67 @@
+html {
+  min-height: 100%;
+  position: relative;
+  background-image: linear-gradient(rgb(255, 125, 38), white);
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-size: 24px;
+}
+
+footer {
+  background-color: black;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+/* Classes */
+
+.head-div {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.main-image {
+  max-width: 75%;
+}
+
+.main-div {
+  text-align: center;
+}
+
+.column-organize {
+  display: flex;
+}
+
+.column {
+  margin: 100px 30px 200px 30px;
+  padding: 5px;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+/* making the youtube video responsive */
+
+.video-container {
+  padding: 50px;
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
